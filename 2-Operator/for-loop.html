@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For-Loop</title>
+</head>
+<body>
+    <h3>Enter a number</h3>
+    <input type="text" id="number" placeholder="Enter a number to print ">
+    <button onclick="fun()">Submit</button>
+    <script>
+     var numbers = document.getElementById("number").value;
+     function fun(){
+        for(var i=0;i<numbers;i++){
+            document.write(i+"<br>");
+        }
+     }
+    </script>
+</body>
+</html>

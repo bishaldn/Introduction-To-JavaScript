@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swtich-Statement</title>
+
+</head>
+
+<body>
+    <h1>Enter Your Choice</h1>
+    <li>
+        <h3>Add</h3>
+        <h3>Multi</h3>
+        <h3>Div</h3>
+    </li>
+    <input type="text" id="choices" placeholder="Enter Your Choicee">
+    <button onclick="myFunc()">Submit</button>
+</body>
+
+<script>
+
+    function myFunc() {
+
+        var choice = document.getElementById("choices").value;
+
+        switch (choice) {
+            case "Add": var a = 20;
+                var b = 30;
+                var c = a + b;
+                document.write("Adiition of two number is " + c);
+                break;
+            case "Multi": var a = 20;
+                var b = 30;
+                var c = a * b;
+                document.write("Multiplication of two number is " + c);
+                break;
+            case "Div": var a = 20;
+                var b = 30;
+                var c = a / b;
+                document.write("Division of two number is " + c);
+                break;
+        }
+
+    }
+</script>
+
+
+
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-Elements</title>
+</head>
+<body>
+    
+    <p id="a">Java</p>
+    <p id="b" class="b">Script</p>
+    <hr>
+    <!-- accessing element by Id -->
+    <script>
+        var ele = document.getElementById("a").innerHTML;
+        document.write("element by Id  : "+ele);
+    </script>
+    <br>
+    <!-- accessing element by ClassName -->
+    <script>
+        //var ele1 = document.getElementsByClassName("a").innerHTML; This will show a undefined
+        var ele1 = document.getElementsByClassName("b")[0].innerHTML;
+        document.write("element by ClassName  : "+ele1);
+    </script>
+    <br>
+    <!-- accessing element by TagName -->
+    <script>
+        var ele1 = document.getElementsByTagName("p")[0].innerHTML;
+        document.write("element by TagName  : "+ele1);
+    </script>
+    <br>
+    <!-- accessing First element -->
+    <script>
+        var p = document.querySelector("p").innerHTML;
+        document.write("First Paragraph element  : "+p);
+    </script>
+</body>
+</html>
