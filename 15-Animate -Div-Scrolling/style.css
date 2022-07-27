@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: -3vh;
+}
+
+.heading {
+    background-color: #283917;
+    ;
+    color: aliceblue;
+    height: 20vh;
+    text-align: center;
+}
+
+
+
+
+.card-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 4vh;
+}
+
+.card-1 {
+    background-color: rgb(24, 175, 24);
+    width: 27vw;
+    height: 35vh;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    color: white;
+    text-align: center;
+}
+
+.card-2 {
+    background-color: red;
+    width: 27vw;
+    height: 35vh;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    color: white;
+    text-align: center;
+}
+
+.card-3 {
+    background-color: yellow;
+    width: 27vw;
+    height: 35vh;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    color: rgb(133, 60, 60);
+    text-align: center;
+}

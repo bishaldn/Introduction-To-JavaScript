@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS using JS</title>
+</head>
+<body>
+    <h1 id="first">Instagram</h1>
+    <h1 id="second">Facebook</h1>
+
+    <script>
+        // one by one
+        document.getElementById("first").style.color = "red";
+        document.getElementById("first").style.textAlign = "center";
+        document.getElementById("first").style.backgroundColor = "black";
+        //All at once
+        document.getElementById("second").setAttribute("style", " color:blue ; background-color: skyblue ; text-align:center;margin:0 px");
+    </script>
+</body>
+</html>

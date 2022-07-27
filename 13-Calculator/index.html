@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="" id="div-body">
+        <p class="heading">Calculator</p>>
+        <form name="main">
+            <input type="text" name="display" id="display">
+            <br>
+            <input type="button" onclick="main.display.value+='1' " value=" 1 " class="first-row">
+            <input type="button" onclick="main.display.value+='2'" value=" 2 " class="first-row">
+            <input type="button" onclick="main.display.value+='3'" value=" 3 " class="first-row">
+            <input type="button" onclick="main.display.value+='+'" value=" + " class="first-row">
+
+            <br>
+            <input type="button" onclick="main.display.value+='4' " value=" 4 " class="first-row">
+            <input type="button" onclick="main.display.value+='5'" value=" 5 " class="first-row">
+            <input type="button" onclick="main.display.value+='6'" value=" 6 " class="first-row">
+            <input type="button" onclick="main.display.value+='-'" value=" - " class="first-row">
+            <br>
+            <input type="button" onclick="main.display.value+='7' " value=" 7 " class="first-row">
+            <input type="button" onclick="main.display.value+='8'" value=" 8 " class="first-row">
+            <input type="button" onclick="main.display.value+='9'" value=" 9 " class="first-row">
+            <input type="button" onclick="main.display.value+='*'" value=" * "class="first-row">
+            <br>
+            <input type="button" onclick="main.display.value+='0'" value=" 0 "class="first-row">
+            <input type="button" onclick="main.display.value+='/'" value=" / "class="first-row">
+            <input type="button" onclick="main.display.value=eval(main.display.value)" value=" = "class="first-row">
+            <input type="button" onclick="main.display.value=' '" value=" AC " class="first-row">
+            <br>
+            <input type="button" onclick="myDel(main.display.value)" value="    DEL " id="last-row">
+            <input type="button" onclick="main.display.value+='%'" value=" MOD " id="last-row">
+
+
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

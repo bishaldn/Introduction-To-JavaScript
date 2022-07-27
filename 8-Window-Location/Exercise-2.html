@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wndow-Location</title>
+</head>
+<body>
+    <input type="button" id="goto" value="View-Protocol" onclick="myFunc()">
+    <script>
+
+        document.getElementById("goto").setAttribute("style","background-color: blue;color:white;width:100px;height:35px");
+
+        function myFunc(){
+            document.write(window.location.protocol);
+            document.write('<br>');
+            document.write(window.location.hostname);
+            document.write('<br>');
+            document.write(window.location.href);
+            document.write('<br>');
+            document.write(window.location.pathname);
+        }
+    </script>
+</body>
+</html>

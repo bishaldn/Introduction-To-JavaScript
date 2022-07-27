@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print a Page content</title>
+</head>
+<body>
+    <div id="divOne">
+        <p><b>C++</b> is a Programing language. <b>C++</b> supports pointers, OOPs etc. <b>C++</b> are used for console applications.</p>
+        <button onclick="myFunc('divOne')" style="background-color:rgb(102, 131, 143);width:100px; height:30px;color: white;">Print The text</button>
+
+    </div>
+    <hr>
+    <div id="divTwo">
+       <p><b>Java</b> is a modern Programming Language based on OOPs. But <b>Java</b> doesn't support pointers. <b>Java</b> is used for modern applications , games etc. </p>
+       <button onclick="myFunc('divTwo')" style="background-color:rgb(102, 131, 143);width:100px; height:30px;color: white;">Print The text</button>
+
+    </div>
+    <hr>
+    <div id="divThree">
+        <p><b>C sharp</b> is a Modern Programming Language based on OOPs developed by Microsoft. <b>C sharp</b> supports Pointers in unsafe mode. <b>C sharp</b> is ued for developing Web based application.</p>
+        <button onclick="myFunc('divThree')" style="background-color:rgb(102, 131, 143);width:100px; height:30px;color:aliceblue">Print The text</button>
+        
+    </div>
+    <hr>
+    <div id="divFour" style="text-align: center;">
+        <button onclick="Print()"style="background-color:rgb(27, 126, 65);width:8vw; height:6vh;color:aliceblue;">Print Page</button>
+    </div>
+
+    <script>
+     function Print(){
+        window.print();
+     }
+     function myFunc(paravalue){
+        var page = document.body.innerHTML;
+        var page1 = document.getElementById(paravalue).innerHTML;
+        document.body.innerHTML = page1;
+        window.print();
+        document.body.innerHTML = page;
+
+     }
+    </script>
+</body>
+</html>
