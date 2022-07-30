@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+.input {
+    width: 28vw;
+    height: 8vh;
+    text-align: center;
+    color: white;
+    background-color: #73777d;
+    border: 5px solid #201e22;
+    font-size: 20px;
+}
+
+.output {
+    width: 28vw;
+    height: 8vh;
+    text-align: center;
+    color: white;
+    background-color: #73777d;
+    border: 5px solid #201e22;
+    font-size: 20px;
+}

@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient(to right, #1f328f,#7d9155);
+}
+.card-container {
+    background-color: ;
+    height: 50vh;
+}
+
+.card {
+    background-color: ;
+
+    display: grid;
+    justify-content: center;
+
+}
+
+.heading {
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 33px;
+    color: #edf1f1;
+}
+
+.content {
+    background: linear-gradient(to right, #8f0cb8,#e8d27b);
+    width: 35vw;
+    height: 25vh;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border: 2px black solid;
+  }
+
+
+
+.result {
+    background-color: ;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 11px;
+    border: ;
+    border-style: none;
+    color: black;
+    font-size: 19px;
+    text-align: center;
+
+}
+
+.input-1 {
+    width: 15vw;
+    height: 5vh;
+    margin-top: 9vh;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.button {
+    width: 13vw;
+    height: 7vh;
+    font-size: 19px;
+    font-family: times-new-roman;
+    background-color: #0c3d42c2;
+    color: white;
+    border: 2px black solid;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.Submit {
+    text-align: center;
+    cursor: pointer;
+}
+.Submit :hover{
+    color: white;
+    background-color: darkcyan;
+}
+
+.Result {
+    text-align: center;
+    margin-top: 8vh;
+}
+.result-text{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #eae7f3;
+    margin-top: 7vh;
+    font-weight: bolder;
+  }
+
