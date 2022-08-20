@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+    width: 40vw;
+    height: 25vw;
+    background: #7373dd;
+    color: white;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+.container h1{
+    text-align: center;
+    padding-top: 10px;
+}
+body{
+
+}
+.text{
+    font-size: 23px;
+text-align: center;
+top: 10px;
+padding-top: 34px;
+
+}
+.author{
+    font-size: 15px;
+    text-align: right;
+    padding-top: 19px;
+    padding-right: 25px;
+}
+.btn-container{
+    text-align: center;
+    margin-top: 42px;
+  }
+
+.btn{
+    text-align: center;
+    width: 17vw;
+    height: 7vh;
+    border: none;
+    border-radius: 8px;
+}
